@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bed & Breakfast</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+      <h1>Bed & Breakfast</h1>
+  </header>
+  <nav>
+  <ul> 
+    <li><a href="index.html">Home</a></li>
+    <li><a href="rooms/seaside_room.html">Seaside Room</a></li>
+    <li><a href="rooms/garden_suite.html">Garden Suite</a></li>
+    <li><a href="events/special_events.html">Weekend Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+ <main>
+ <h2>Welcome to Bed & Breakfast</h2>
+ <p>Escape to our home of comfort and peace here at Bed & Breakfast. Our cozy suites, homemade breakfasts, fun events and kind staff will help you have the best time here!</p>
+ 
+ <h2>Bring a Friend</h2>
+ <p>Why not bring a friend to our lovely home! The more friends the better is what we say!<br>We have many fun and exciting events you and your friends can enjoy when you spend time at our lovely establishment</p>
+ 
+ <h2>Our Mission</h2>
+ <p>We aim to provide a quiet, welcoming retreat where guests can unwind, enjoy our fun weekend events, and enjoy our kind and friendly hospitality!</p>
+ <img src="images/cover.jpg" alt="A beautiful sunset over the ocean" usemap="#sunsetmap" class="home-cover-img">
+
+<map name="sunsetmap">
+  <area shape="rect" coords="0,0,2000,500" alt="The Sunset" href="#" onclick="sunny(); return false;">
+  <area shape="rect" coords="0,500,2000,1000" alt="The Ocean" href="#" onclick="splash(); return false;">
+</map>
+
+<script>
+function sunny() {
+  alert("Fun Fact: Pollution causes the pretty sunsets we see.");
+}
+function splash() {
+  alert("Fun Fact: During sunset, many creatures ascend from the deep ocean to feed.");
+}
+</script>
+ 
+  </main>
+  <footer>
+	Copyright &copy; 2025<br>
+	<a href="mailto:jadame24@amarillocollege.com">Jose Adame</a>
+	<div class="footer-nav" role="navigation" aria-label="Footer navigation">
+		<a href="index.html">Home</a> |
+		<a href="rooms/seaside_room.html">Seaside Room</a> |
+		<a href="rooms/garden_suite.html">Garden Suite</a> |
+		<a href="events/special_events.html">Weekend Events</a> |
+		<a href="contact.html">Contact</a>
+	</div>
+	</footer>
+</div>
+</body>
+</html>

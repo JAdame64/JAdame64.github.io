@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cost Estimator - Bed & Breakfast</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/styles.css" rel="stylesheet">
+<script src="scripts/script.js" defer></script> <!-- Link to JS file -->
+</head>
+<body>
+<div id="wrapper">
+<header>
+  <h1>Bed & Breakfast</h1>
+</header>
+<nav>
+<ul> 
+  <li><a href="index.html">Home</a></li>
+  <li><a href="rooms/seaside_room.html">Seaside Room</a></li>
+  <li><a href="rooms/garden_suite.html">Garden Suite</a></li>
+  <li><a href="events/special_events.html">Weekend Events</a></li>
+  <li><a href="costs.html">Cost Estimator</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<main>
+<h2>Price of your stay!</h2>
+<p>Please select the nights and addons you want for your stay here!</p>
+<form id="costForm">
+  <!-- Base Room Selection -->
+  <label for="room">Choose Room:</label><br>
+  <select id="room">
+  <!-- Sets the price for room price value here -->
+    <option value="50">Seaside Room ($50/night)(Weekdays)</option>
+    <option value="25">Garden Suite ($25/night)(Weekdays)</option>
+	<option value="75">Seaside Room ($75/night)(Weekends)</option>
+    <option value="50">Garden Suite ($50/night)(Weekends)</option>
+  </select><br><br>
+  <!-- Add-on Features -->
+  <p><strong>Select Add-ons:</strong></p>
+  <!-- Sets the price for each checkbox here -->
+  <input type="checkbox" id="breakfast" value="10">
+  <label for="breakfast">Breakfast ($10)</label><br>
+  <input type="checkbox" id="parking" value="5">
+  <label for="parking">Parking ($5)</label><br>
+  <input type="checkbox" id="spa" value="20">
+  <label for="spa">Spa Access ($20)</label><br>
+  <input type="checkbox" id="tour" value="15">
+  <label for="tour">Guided Tour ($15)</label><br><br>
+  <!-- Nights -->
+  <label for="nights">Number of Nights:</label><br>
+  <!-- Sets the price for night value here -->
+  <input type="number" id="nights" min="1" value="1"><br><br>
+  <button type="button" onclick="calculateCost()">Calculate Total</button>
+</form>
+<h3 id="result"></h3>
+</main>
+<footer>
+Copyright &copy; 2025<br>
+<a href="mailto:jadame24@amarillocollege.com">Jose Adame</a>
+<div class="footer-nav">
+  <a href="index.html">Home</a> |
+  <a href="rooms/seaside_room.html">Seaside Room</a> |
+  <a href="rooms/garden_suite.html">Garden Suite</a> |
+  <a href="events/special_events.html">Weekend Events</a> |
+  <a href="costs.html">Cost Estimator</a> |
+  <a href="contact.html">Contact</a>
+</div>
+</footer>
+</div>
+</body>
+</html>

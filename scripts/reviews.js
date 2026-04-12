@@ -4,11 +4,8 @@ let reviewers = ["Emily R.", "James T.", "Sophia L.", "Michael B."];
 let reviewDates = ["12/18/2024", "8/07/2024", "05/22/2024", "02/14/2025"];
 let reviews = [
     "The seaside room was absolutely stunning! Waking up to the sound of the waves made the stay unforgettable. The Sunset Social Gathering on Friday was a perfect way to meet other guests and enjoy the view. Highly recommend!",
-    
     "We stayed in the garden suite and loved the peaceful atmosphere. The Morning Garden Walk on Saturday was both relaxing and informative. The hosts clearly care about every detail of the experience.",
-    
     "This was one of the coziest places I’ve ever stayed. The Saturday Night Bonfire was such a fun touch—hot cocoa, marshmallows, and great company. The seaside room had an incredible view!",
-    
     "A perfect weekend getaway! The garden suite was beautiful and quiet. We especially enjoyed the Sunday Brunch Meetup—it was delicious and a great way to wrap up the stay before heading home."
 ];
 let reviewTitles = [

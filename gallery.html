@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery - Bed & Breakfast</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/styles.css" rel="stylesheet">
+<script src="scripts/gallery.js" defer></script>
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+  <h1>Bed & Breakfast</h1>
+</header>
+
+<nav>
+<ul> 
+  <li><a href="index.html">Home</a></li>
+  <li><a href="rooms/seaside_room.html">Seaside Room</a></li>
+  <li><a href="rooms/garden_suite.html">Garden Suite</a></li>
+  <li><a href="events/special_events.html">Weekend Events</a></li>
+  <li><a href="costs.html">Cost Estimator</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="reviews.html">Reviews</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+</ul>
+</nav>
+
+<main>
+<h2>Photo Gallery</h2>
+<p>Click an image to view it larger.</p>
+
+<!-- JS will insert images here -->
+<div id="gallery"></div>
+
+<!-- Lightbox (hidden until clicked) -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+</main>
+
+<footer>
+	Copyright &copy; 2025<br>
+	<a href="mailto:jadame24@amarillocollege.com">Jose Adame</a>
+	<div class="footer-nav" role="navigation" aria-label="Footer navigation">
+		<a href="index.html">Home</a> |
+		<a href="../rooms/seaside_room.html">Seaside Room</a> |
+		<a href="../rooms/garden_suite.html">Garden Suite</a> |
+		<a href="special_events.html">Weekend Events</a> |
+		<a href="costs.html">Cost Estimator</a> |
+		<a href="contact.html">Contact</a> |
+		<a href="reviews.html">Reviews</a> |
+		<a href="gallery.html">Reviews</a>
+	</div>
+	</footer>
+
+</div>
+</body>
+</html>

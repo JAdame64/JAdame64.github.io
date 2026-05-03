@@ -303,3 +303,85 @@ footer .footer-nav a:focus {
   max-height: 80%;
   border-radius: 10px;
 }
+
+.product{
+  border:1px solid #ccc;
+  padding:15px;
+  margin:15px;
+  display:inline-block;
+}
+
+/* SHOP GRID */
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card select {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* CART */
+.cart-item {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* TOTAL BOX */
+.total-box {
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* CHECKOUT FORM */
+.checkout-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* General page layout */
+main {
+    padding: 2rem;
+    background: #F4F1E6; /* softer cream color */
+}
+
+/* Cart area */
+#cart-area {
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+button {
+    padding: 0.8rem 1.5rem;
+    margin-top: 10px;
+}
+
+/* Input boxes in cart */
+.cart-item input[type="number"] {
+    width: 50px;
+    margin: 0 10px;
+    padding: 5px;
+}
+

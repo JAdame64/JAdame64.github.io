@@ -1,5 +1,3 @@
-// shipping.js
-
 function validateForm() {
     // Billing info
     let name = document.getElementById("name").value.trim();
@@ -49,11 +47,11 @@ function validateForm() {
         <p>Thank you, ${name}! Your order has been placed.</p>
     `;
 
-    // Clear cart and redirect after 3 seconds
+    // Clear cart and redirect after 5 seconds
     localStorage.removeItem("cart");
     setTimeout(() => {
         window.location.href = "store.html";
-    }, 3000);
+    }, 5000);
 
     return false;
 }

@@ -1,5 +1,3 @@
-// store.js
-
 function addToCart(name, price, id) {
     const color = document.getElementById("color-" + id).value;
     const size = document.getElementById("size-" + id).value;

@@ -1,5 +1,3 @@
-// cart.js
-
 function loadCart() {
     let cart = getCart();
     let html = "";

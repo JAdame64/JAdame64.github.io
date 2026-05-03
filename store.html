@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gift Shop</title>
+<link rel="stylesheet" href="styles/styles.css">
+<script src="scripts/common.js" defer></script>
+<script src="scripts/store.js" defer></script>
+</head>
+
+<body>
+<div id="wrapper">
+<header><h1>Bed & Breakfast Gift Shop</h1></header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="store.html">Shop</a></li>
+<li><a href="cart.html">View Cart</a></li>
+</ul>
+</nav>
+
+<main>
+<h2>Bed & Breakfast Gift Shop</h2>
+
+<div class="shop-grid">
+
+<!-- ITEM 1 -->
+<div class="product-card">
+<img src="images/mug.jpg" alt="Coffee Mug">
+<h3>Signature Coffee Mug</h3>
+<p>$12.99 – Enjoy your morning coffee like our guests do.</p>
+
+<label>Color:</label>
+<select id="color-1">
+<option>Cream</option><option>Brown</option>
+</select>
+
+<label>Size:</label>
+<select id="size-1">
+<option>Standard</option>
+</select>
+
+<label>Qty:</label>
+<select id="qty-1">
+<option>1</option><option>2</option><option>3</option>
+</select>
+
+<button onclick="addToCart('Coffee Mug',12.99,1)">Add to Cart</button>
+</div>
+
+<!-- ITEM 2 -->
+<div class="product-card">
+<img src="images/candle.jpg" alt="Candle">
+<h3>Relaxation Candle</h3>
+<p>$14.99 – Lavender scent inspired by our garden suite.</p>
+
+<label>Color:</label>
+<select id="color-2">
+<option>Lavender</option><option>White</option>
+</select>
+
+<label>Size:</label>
+<select id="size-2">
+<option>Small</option><option>Large</option>
+</select>
+
+<label>Qty:</label>
+<select id="qty-2">
+<option>1</option><option>2</option>
+</select>
+
+<button onclick="addToCart('Candle',14.99,2)">Add to Cart</button>
+</div>
+
+<!-- ITEM 3 -->
+<div class="product-card">
+<img src="images/robe.jpg" alt="Robe">
+<h3>Luxury Bath Robe</h3>
+<p>$39.99 – Soft robe just like in our suites.</p>
+
+<label>Color:</label>
+<select id="color-3">
+<option>White</option><option>Beige</option>
+</select>
+
+<label>Size:</label>
+<select id="size-3">
+<option>Small</option><option>Medium</option><option>Large</option>
+</select>
+
+<label>Qty:</label>
+<select id="qty-3">
+<option>1</option><option>2</option>
+</select>
+
+<button onclick="addToCart('Robe',39.99,3)">Add to Cart</button>
+</div>
+
+<!-- ITEM 4 -->
+<div class="product-card">
+<img src="images/basket.jpg" alt="Gift Basket">
+<h3>Breakfast Gift Basket</h3>
+<p>$29.99 – Includes pastries, jam, and tea.</p>
+
+<label>Color:</label>
+<select id="color-4">
+<option>Classic</option>
+</select>
+
+<label>Size:</label>
+<select id="size-4">
+<option>Standard</option>
+</select>
+
+<label>Qty:</label>
+<select id="qty-4">
+<option>1</option><option>2</option>
+</select>
+
+<button onclick="addToCart('Gift Basket',29.99,4)">Add to Cart</button>
+</div>
+
+<!-- ITEM 5 -->
+<div class="product-card">
+<img src="images/towel.jpg" alt="Towel">
+<h3>Plush Towel Set</h3>
+<p>$24.99 – Hotel-quality towels from your stay.</p>
+
+<label>Color:</label>
+<select id="color-5">
+<option>White</option><option>Cream</option>
+</select>
+
+<label>Size:</label>
+<select id="size-5">
+<option>2-Piece</option><option>4-Piece</option>
+</select>
+
+<label>Qty:</label>
+<select id="qty-5">
+<option>1</option><option>2</option>
+</select>
+
+<button onclick="addToCart('Towel Set',24.99,5)">Add to Cart</button>
+</div>
+
+</div>
+</main>
+</body>
+</html>

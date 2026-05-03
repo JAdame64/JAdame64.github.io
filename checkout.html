@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Checkout</title>
+<link rel="stylesheet" href="styles/styles.css">
+<script src="scripts/common.js" defer></script>
+<script src="scripts/shipping.js" defer></script>
+</head>
+<body>
+<div id="wrapper">
+<header><h1>Checkout</h1></header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="store.html">Back to Store</a></li>
+    </ul>
+</nav>
+<main>
+<h2>Checkout</h2>
+
+<form class="checkout-form" onsubmit="return validateForm()">
+
+<h3>Billing Info</h3>
+
+<label>Name</label>
+<input id="name" type="text" required>
+
+<label>Email</label>
+<input id="email" type="email" required>
+
+<label>Zip</label>
+<input id="zip" type="text" required>
+
+<label>Room/Address</label>
+<input id="address" type="text" required>
+
+<h3>Shipping Info</h3>
+
+<label>Name</label>
+<input id="shipName" type="text" required>
+
+<label>Email</label>
+<input id="shipEmail" type="email" required>
+
+<label>Zip</label>
+<input id="shipZip" type="text" required>
+
+<label>Room/Address</label>
+<input id="shipAddress" type="text" required>
+
+<label>
+  <input type="checkbox" id="sameAsBilling" onclick="copyInfo()"> Same as billing
+</label>
+
+<button type="submit">Place Order</button>
+
+</form>
+
+<div id="message"></div>
+</main>
+</div>
+</body>
+</html>

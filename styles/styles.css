@@ -385,3 +385,47 @@ button {
     padding: 5px;
 }
 
+/* MAP SECTION */
+
+.map-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.map-info {
+  max-width: 700px;
+  text-align: center;
+}
+
+#map {
+  width: 100%;
+  max-width: 700px;
+  height: 350px;
+  border-radius: 15px;
+  border: 8px solid white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Desktop layout */
+@media (min-width: 900px) {
+
+  .map-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .map-info {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  #map {
+    flex: 1;
+  }
+
+}

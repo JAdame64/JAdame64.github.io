@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="styles/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
 <body>
 <div id="wrapper">
@@ -50,6 +51,25 @@ function splash() {
 }
 </script>
  
+<h2>Find Us & Current Weather</h2>
+
+<div class="map-layout">
+
+  <div class="map-info">
+    <p>
+      Visit our peaceful Bed & Breakfast and enjoy 
+      our beautiful scenery, relaxing atmosphere, and cozy accommodations.
+    </p>
+
+    <p>
+      Check the current local weather directly from our map to the right!
+    </p>
+  </div>
+
+<div id="map"></div>
+
+</div>
+
   </main>
   <footer>
 	Copyright &copy; 2025<br>
@@ -68,5 +88,9 @@ function splash() {
 	</div>
 	</footer>
 </div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="scripts/mapscript.js"></script>
+
 </body>
 </html>
